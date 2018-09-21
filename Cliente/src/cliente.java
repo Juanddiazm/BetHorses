@@ -22,7 +22,6 @@ public class cliente {
 			//addressServer = InetAddress.getByName(serverName);
 
 			Socket socket = new Socket("localHost", 8000);
-
 			InputStream input = socket.getInputStream();
 			InputStreamReader inpReader = new InputStreamReader(input);
 			BufferedReader escucha = new BufferedReader(inpReader);
