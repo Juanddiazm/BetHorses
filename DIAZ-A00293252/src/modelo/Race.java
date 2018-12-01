@@ -17,13 +17,12 @@ public class Race {
 		animationHorse4 = new AnimationHorse("Animation/Horse4", 13, 20, 200);
 		animationHorse5 = new AnimationHorse("Animation/Horse5", 13, 20, 260);
 		animationHorse6 = new AnimationHorse("Animation/Horse6", 13, 20, 320);
-
 	}
 
-	public  static Race getSingletonInstance() {
+	public static Race getSingletonInstance() {
 		if (race == null) {
 			race = new Race();
-			
+
 		}
 		return race;
 	}
