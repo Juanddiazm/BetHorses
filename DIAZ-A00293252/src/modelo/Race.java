@@ -9,7 +9,6 @@ public class Race {
 	private static AnimationHorse animationHorse4;
 	private static AnimationHorse animationHorse5;
 	private static AnimationHorse animationHorse6;
-
 	private Race() {
 		animationHorse1 = new AnimationHorse("Animation/Horse1", 13, 20, 20);
 		animationHorse2 = new AnimationHorse("Animation/Horse2", 13, 20, 80);
